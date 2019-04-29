@@ -13,5 +13,11 @@ Execute the python script in the directory with the abstract files.
 2. Fix any typos in the submission files. i.e. The image files should have matching docx files. Apparently some competent people can't spell their names nowadays.
 3. The program should skip over submission files that do not follow the template provided (instead of failing and stalling). The easiest fix to that is to manually place the contents into the abstract_template docx file.
 
+# Manual work after executing the script #
+Put in the figure dimensions in pixels/100. This feature has not been added.
+
+# Future update wish-list #
+1. Read figure dimensions from figure files and directly parse them.
+
 This is the first version. Please report any problems and bugs to wilsonzzw@gmail.com, or send a pull request.
 (Last updated 2019-04-29)
