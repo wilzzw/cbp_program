@@ -32,11 +32,11 @@ latex.close()
 # Sanity Zone; please update as you go..
 # As far as I am aware, PANDOC processes '&' and '%' correctly.
 # Do not double-process them by adding to the dictionary special_characters!!
-greek = {'α': '$/alpha$', 'β': '$/beta$', 'γ': '$/gamma$', 'δ': '$/delta$',
-         'ε': '$/epsilon$', 'ζ': '$/zeta$', 'η': '$/eta$', 'θ': '$/theta$',
-         'ι': '$/iota$', 'κ': '$/kappa$', 'λ': '$/lambda$', 'μ': '$/mu$',
-         'ν': '$/nu$', 'ξ': '$/xi$', 'π': '$/pi$', 'ρ': '$/rho$', 'σ': '$/sigma$',
-         'τ': '$/tau$', 'υ': '$/upsilon$', 'φ': '$/phi$', 'χ': '$/chi$', 'ψ': '$/psi$', 'ω': '$/omega$'}
+greek = {'α': r'$\alpha$', 'β': r'$\beta$', 'γ': r'$\gamma$', 'δ': r'$\delta$',
+         'ε': r'$\epsilon$', 'ζ': r'$\zeta$', 'η': r'$\eta$', 'θ': r'$\theta$',
+         'ι': r'$\iota$', 'κ': r'$\kappa$', 'λ': r'$\lambda$', 'μ': r'$\mu$',
+         'ν': r'$\nu$', 'ξ': r'$\xi$', 'π': r'$\pi$', 'ρ': r'$\rho$', 'σ': r'$\sigma$',
+         'τ': r'$\tau$', 'υ': r'$\upsilon$', 'φ': r'$\phi$', 'χ': r'$\chi$', 'ψ': r'$\psi$', 'ω': r'$\omega$'}
 latin_with_accents = {'é': r'\'{e}', 'è': r'\`{e}', 'ü': r'\"{u}', 'ä': r'\"{a}', 'ö': r'\"{o}'}
 
 # The symbol I know PANDOC does not handle properly
